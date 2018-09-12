@@ -220,7 +220,7 @@
 
 
 struct ngx_module_s {
-    ngx_uint_t            ctx_index;
+    ngx_uint_t            ctx_index;  //模块序号
     ngx_uint_t            index;
 
     char                 *name;
